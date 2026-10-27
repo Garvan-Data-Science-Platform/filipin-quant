@@ -48,6 +48,13 @@ Filipin TIFF ──► Segment cells ──► (optional) hand-correct ──►
    bright membrane and by puncta, and each compartment's share of the
    whole-cell signal.
 
+![Example QC overlay: raw Filipin image, segmented cells, membrane ring and
+cytoplasm, bright membrane, and detected puncta](docs/images/example_overlay.png)
+
+*Example QC overlay saved for every image (`overlays/`). Left to right: raw
+Filipin signal; segmented cells (yellow outlines); membrane ring (green) and
+cytoplasm (red); bright-membrane subset (magenta); cytoplasmic puncta (cyan).*
+
 ---
 
 ## Installation
