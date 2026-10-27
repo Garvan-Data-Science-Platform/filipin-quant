@@ -253,6 +253,19 @@ Image data and results are not part of this repository.
 
 ---
 
+## AI assistance
+
+Parts of this project were developed with the help of Anthropic's Claude
+models via [Claude Code](https://claude.com/claude-code):
+
+- **Claude Fable 5**: pipeline, GUI and Windows launcher code.
+- **Claude Opus 5.5**: README, repository setup and documentation clean-up.
+
+All code was reviewed, tested and validated on real data by the authors,
+who take full responsibility for its correctness.
+
+---
+
 ## License
 
 Released under the [MIT License](LICENSE). Copyright (c) 2026 Garvan Institute
