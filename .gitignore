@@ -1,0 +1,30 @@
+data/
+results_all/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+filipin_deploy.zip
+
+# Image data / results / packaged builds
+*.zip
+
+# Internal documents (methods write-up, manual, Office lock files)
+*.docx
+~$*
+build_methods*.py
+Filipin_GUI_User_Manual.pdf
+
+# Secrets and credentials (never commit)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+*token*
+.netrc

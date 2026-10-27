@@ -1,0 +1,33 @@
+# Conda environment for the Filipin quantification pipeline + GUI.
+# Pinned to the versions validated on the Linux GPU workstation.
+#
+#   conda env create -f environment.yml
+#   conda activate cell_quant_sam
+#
+# GPU / CUDA NOTE ------------------------------------------------------------
+# torch/torchvision below are the CUDA 12.8 (cu128) builds. They need a recent
+# NVIDIA driver. If the target Windows machine has an older GPU/driver and cu128
+# fails (torch.cuda.is_available() == False, or an install error), change BOTH
+# the --extra-index-url line and use the matching build, e.g. for CUDA 12.1:
+#   --extra-index-url https://download.pytorch.org/whl/cu121
+# Check the machine's supported CUDA with `nvidia-smi` (top-right corner).
+# ---------------------------------------------------------------------------
+name: cell_quant_sam
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.11.0
+      - torchvision==0.26.0
+      - cellpose==4.2.1.1
+      - "napari[all]==0.8.0"
+      - PyQt6==6.10.2
+      - scikit-image==0.26.0
+      - tifffile==2026.3.3
+      - numpy==2.4.4
+      - pandas==3.0.3
+      - scipy==1.17.1
+      - imageio==2.37.3
