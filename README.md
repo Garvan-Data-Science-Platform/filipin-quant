@@ -250,3 +250,10 @@ Image data and results are not part of this repository.
 | `render_overlays.py` | Stand-alone QC overlay rendering from a saved mask. |
 | `environment.yml` | Pinned conda environment (`cell_quant_sam`). |
 | `windows/` | Windows desktop launcher and shortcut scripts. |
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Garvan Institute
+of Medical Research.
