@@ -111,6 +111,10 @@ python batch_all.py          # writes everything to results_all/
 
 ## Using the GUI
 
+![Filipin Quant GUI in napari: layer list on the left, image with cell masks,
+membrane (green/magenta) and puncta (cyan) overlays in the centre, control
+panel on the right](docs/images/gui_screenshot.png)
+
 A napari window opens with the **Filipin quant** control panel on the right.
 Work down the panel from top to bottom:
 
