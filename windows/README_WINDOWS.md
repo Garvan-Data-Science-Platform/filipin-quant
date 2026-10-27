@@ -55,8 +55,8 @@ it. **The critical point: where the env is created.**
 > another user's profile**, so an env created there will NOT work for them. You
 > must force it into an all-users location.
 
-This machine already has an all-users conda base at `C:\ProgramData\miniconda3`,
-so reinstalling conda is not needed. Steps:
+If the machine already has an all-users conda base (e.g. `C:\ProgramData\miniconda3`),
+reinstalling conda is not needed; otherwise install Miniconda "for all users" first. Steps:
 
 1. Put the code in a shared local path, e.g. `C:\filipin` (step 1 above).
 2. Open **Anaconda Prompt** → **Run as administrator** (so `C:\ProgramData` is
